@@ -238,7 +238,7 @@ async function sendChat() {
   const context = "I am Narendra Modi, the 14th Prime Minister of India, born 17 September 1950 in Vadnagar, Gujarat. I served as Chief Minister of Gujarat 2001-2014. As PM since 2014, I launched Digital India, Swachh Bharat, Make in India, Jan Dhan Yojana, GST, PM Awas Yojana, Ujjwala Yojana, Startup India, Atmanirbhar Bharat, and Bharatmala. I believe in Viksit Bharat — a developed, self-reliant India.";
 
   try {
-    const apiKey = "AIzaSyCP90GNn_rjXTM3yfF26LTU38u6udQtAJE";
+    const apiKey = "AIzaSyBOa3SFdb_AJ2y8QMld7iwjlsMJhmRNaLA";
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
