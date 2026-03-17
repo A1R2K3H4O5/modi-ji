@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narendra Modi – Prime Minister of India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="logo-flag">🇮🇳</span> NaMo
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#stats" class="nav-link">Achievements</a></li>
+      <li><a href="#initiatives" class="nav-link">Initiatives</a></li>
+      <li><a href="#timeline" class="nav-link">Timeline</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn-theme" id="themeBtn" aria-label="Toggle theme">
+        <svg id="sunIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+        <svg id="moonIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge">14th Prime Minister of India</div>
+    <h1 class="hero-title">Narendra <span class="accent">Modi</span></h1>
+    <p class="hero-sub">Visionary Leader · Nation Builder · Global Statesman</p>
+    <div class="hero-btns">
+      <a href="#initiatives" class="btn btn-primary">Explore Initiatives</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero-img-wrap">
+    <img src="181218164622-modi-0418-01.jpg" alt="Narendra Modi" class="hero-img" />
+    <div class="hero-ring"></div>
+  </div>
+  <div class="scroll-hint">
+    <span>Scroll Down</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-tag">Who I Am</div>
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="181218164622-modi-0418-01.jpg" alt="Narendra Modi" />
+        <div class="about-badge">
+          <span class="badge-num">20+</span>
+          <span class="badge-label">Years in Leadership</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>Namaste! I am <strong>Narendra Modi</strong>, born on 17 September 1950 in Vadnagar, Gujarat. From humble beginnings — helping my father sell tea at a railway station — I learned the values of hard work and perseverance that have guided my entire life.</p>
+        <p>I dedicated my early years to the Rashtriya Swayamsevak Sangh (RSS), which shaped my commitment to national service. I served as Chief Minister of Gujarat from 2001 to 2014, transforming it into one of India's most developed states.</p>
+        <p>Since 2014, as Prime Minister, I have been working tirelessly to build a <strong>Viksit Bharat</strong> — a developed, self-reliant, and inclusive India that leads the world with pride.</p>
+        <div class="skills-wrap">
+          <span class="skill-tag">🏛️ Governance</span>
+          <span class="skill-tag">🌍 Diplomacy</span>
+          <span class="skill-tag">💡 Innovation</span>
+          <span class="skill-tag">📢 Communication</span>
+          <span class="skill-tag">⚡ Economic Reforms</span>
+          <span class="skill-tag">🤝 Public Engagement</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section id="stats" class="section stats-section">
+  <div class="container">
+    <div class="section-tag">By the Numbers</div>
+    <h2 class="section-title">Key Achievements</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">🏦</div>
+        <div class="stat-num" data-target="530">0</div>
+        <div class="stat-suffix">Million+</div>
+        <div class="stat-label">Jan Dhan Accounts Opened</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🚽</div>
+        <div class="stat-num" data-target="110">0</div>
+        <div class="stat-suffix">Million+</div>
+        <div class="stat-label">Toilets Built (Swachh Bharat)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">💡</div>
+        <div class="stat-num" data-target="99">0</div>
+        <div class="stat-suffix">%</div>
+        <div class="stat-label">Villages Electrified</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🏠</div>
+        <div class="stat-num" data-target="30">0</div>
+        <div class="stat-suffix">Million+</div>
+        <div class="stat-label">Houses Built (PM Awas)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🍳</div>
+        <div class="stat-num" data-target="90">0</div>
+        <div class="stat-suffix">Million+</div>
+        <div class="stat-label">LPG Connections (Ujjwala)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🌐</div>
+        <div class="stat-num" data-target="14">0</div>
+        <div class="stat-suffix">Billion+</div>
+        <div class="stat-label">UPI Transactions/Month</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INITIATIVES ===== -->
+<section id="initiatives" class="section initiatives-section">
+  <div class="container">
+    <div class="section-tag">Flagship Programs</div>
+    <h2 class="section-title">Key Initiatives</h2>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="digital">Digital</button>
+      <button class="filter-btn" data-filter="social">Social</button>
+      <button class="filter-btn" data-filter="economy">Economy</button>
+      <button class="filter-btn" data-filter="infra">Infrastructure</button>
+    </div>
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- Digital India -->
+      <div class="project-card" data-category="digital" data-title="Digital India" data-img="Digital-India.jpg" data-desc="Launched in 2015, Digital India aims to transform India into a digitally empowered society and knowledge economy. Key outcomes include 800M+ internet users, UPI processing 14B+ monthly transactions, and e-governance services reaching every citizen. India is now the world's 3rd largest startup ecosystem.">
+        <div class="card-img">
+          <img src="Digital-India.jpg" alt="Digital India" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge digital">Digital</span>
+        </div>
+        <div class="card-body">
+          <h3>🚀 Digital India</h3>
+          <p>Transforming India into a digitally empowered society through internet access, UPI payments, and e-governance.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Swachh Bharat -->
+      <div class="project-card" data-category="social" data-title="Swachh Bharat Abhiyan" data-img="banega-swachh-india-650_052617023343-1280x720.jpg" data-desc="Launched on 2 October 2014, Swachh Bharat Abhiyan is the largest cleanliness drive in history. Over 110 million toilets were built, India was declared Open Defecation Free in 2019, and the mission has saved thousands of lives by improving sanitation and hygiene across rural and urban India.">
+        <div class="card-img">
+          <img src="banega-swachh-india-650_052617023343-1280x720.jpg" alt="Swachh Bharat" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge social">Social</span>
+        </div>
+        <div class="card-body">
+          <h3>🧼 Swachh Bharat Abhiyan</h3>
+          <p>World's largest cleanliness drive — 110M+ toilets built, India declared Open Defecation Free in 2019.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Make in India -->
+      <div class="project-card" data-category="economy" data-title="Make in India" data-img="make-in-India-logo.jpg" data-desc="Launched in September 2014, Make in India invites global companies to manufacture in India. It has attracted over $500 billion in FDI, created millions of jobs, and positioned India as a global manufacturing hub in sectors like electronics, defence, automobiles, and pharmaceuticals.">
+        <div class="card-img">
+          <img src="make-in-India-logo.jpg" alt="Make in India" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge economy">Economy</span>
+        </div>
+        <div class="card-body">
+          <h3>🏭 Make in India</h3>
+          <p>Turning India into a global manufacturing hub — $500B+ FDI attracted, millions of jobs created.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- GST -->
+      <div class="project-card" data-category="economy" data-title="GST Reform" data-img="gst-image.jpg" data-desc="The Goods and Services Tax (GST), implemented on 1 July 2017, is India's biggest tax reform since independence. It replaced 17 central and state taxes with a unified system, simplified compliance, reduced cascading taxes, and boosted GDP. Monthly GST collections now regularly exceed ₹1.5 lakh crore.">
+        <div class="card-img">
+          <img src="gst-image.jpg" alt="GST" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge economy">Economy</span>
+        </div>
+        <div class="card-body">
+          <h3>🧾 GST Reform</h3>
+          <p>India's biggest tax reform — unified 17 taxes into one, monthly collections exceeding ₹1.5L crore.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Jan Dhan -->
+      <div class="project-card" data-category="social" data-title="Jan Dhan Yojana" data-img="th.jpeg" data-desc="Pradhan Mantri Jan Dhan Yojana (PMJDY), launched in August 2014, is the world's largest financial inclusion program. Over 530 million bank accounts have been opened, bringing the unbanked population into the formal financial system. It enables direct benefit transfers, insurance, and credit access for the poorest citizens.">
+        <div class="card-img">
+          <img src="th.jpeg" alt="Jan Dhan Yojana" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge social">Social</span>
+        </div>
+        <div class="card-body">
+          <h3>🏦 Jan Dhan Yojana</h3>
+          <p>World's largest financial inclusion program — 530M+ accounts, banking for every Indian.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- PM Awas -->
+      <div class="project-card" data-category="social" data-title="PM Awas Yojana" data-img="63262656.jpg" data-desc="Pradhan Mantri Awas Yojana (PMAY) aims to provide affordable housing to all by 2024. Over 30 million houses have been sanctioned for urban and rural poor, with features like pucca construction, toilets, electricity, and LPG connections — giving dignity and security to millions of families.">
+        <div class="card-img">
+          <img src="63262656.jpg" alt="PM Awas Yojana" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge social">Social</span>
+        </div>
+        <div class="card-body">
+          <h3>🏠 PM Awas Yojana</h3>
+          <p>Housing for All — 30M+ houses sanctioned, providing dignity and security to the poor.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Ujjwala -->
+      <div class="project-card" data-category="social" data-title="Ujjwala Yojana" data-img="Ujjwala-yojana-All-You-Need-to-Know-About-PM-Ujjwala-Yojana-01.webp" data-desc="PM Ujjwala Yojana provides free LPG connections to women in BPL households, replacing hazardous biomass cooking. Over 90 million connections have been distributed, dramatically reducing indoor air pollution, improving women's health, and saving time previously spent collecting firewood.">
+        <div class="card-img">
+          <img src="Ujjwala-yojana-All-You-Need-to-Know-About-PM-Ujjwala-Yojana-01.webp" alt="Ujjwala Yojana" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge social">Social</span>
+        </div>
+        <div class="card-body">
+          <h3>💡 Ujjwala Yojana</h3>
+          <p>Clean cooking for all — 90M+ free LPG connections to BPL women, reducing health hazards.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Bharatmala -->
+      <div class="project-card" data-category="infra" data-title="Bharatmala & Sagarmala" data-img="7638cc1c-2e8c-439d-967c-b4fd73a0496d.png" data-desc="Bharatmala Pariyojana is a ₹10 lakh crore highway development program building 34,800 km of roads. Sagarmala modernizes India's 12 major ports and 200+ minor ports. Together they are revolutionizing India's logistics, reducing freight costs by 40%, and boosting trade competitiveness.">
+        <div class="card-img">
+          <img src="7638cc1c-2e8c-439d-967c-b4fd73a0496d.png" alt="Bharatmala" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge infra">Infra</span>
+        </div>
+        <div class="card-body">
+          <h3>🏗️ Bharatmala & Sagarmala</h3>
+          <p>₹10L crore highway program + port modernization — cutting freight costs and boosting trade.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Startup India -->
+      <div class="project-card" data-category="economy" data-title="Startup India" data-img="standup-india-1.jpg" data-desc="Startup India, launched in January 2016, has created the world's 3rd largest startup ecosystem with 100,000+ DPIIT-recognized startups and 100+ unicorns. The initiative provides tax exemptions, funding support, regulatory simplification, and incubation to entrepreneurs across India.">
+        <div class="card-img">
+          <img src="standup-india-1.jpg" alt="Startup India" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge economy">Economy</span>
+        </div>
+        <div class="card-body">
+          <h3>🔬 Startup India</h3>
+          <p>World's 3rd largest startup ecosystem — 100K+ startups, 100+ unicorns, billions in funding.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+
+      <!-- Atmanirbhar -->
+      <div class="project-card" data-category="economy" data-title="Atmanirbhar Bharat" data-img="atmanirbhar.jpg" data-desc="Atmanirbhar Bharat (Self-Reliant India), launched during COVID-19 in 2020, is a ₹20 lakh crore economic package. It focuses on making India self-sufficient in defence, electronics, pharmaceuticals, agriculture, and manufacturing. India now exports defence equipment worth ₹21,000 crore annually and has become a global vaccine manufacturer.">
+        <div class="card-img">
+          <img src="atmanirbhar.jpg" alt="Atmanirbhar Bharat" />
+          <div class="card-overlay"><span>View Details</span></div>
+          <span class="card-badge economy">Economy</span>
+        </div>
+        <div class="card-body">
+          <h3>🌱 Atmanirbhar Bharat</h3>
+          <p>₹20L crore self-reliance package — India now a global leader in defence exports and vaccines.</p>
+          <button class="btn-details" onclick="openModal(this)">Learn More →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TIMELINE ===== -->
+<section id="timeline" class="section timeline-section">
+  <div class="container">
+    <div class="section-tag">Journey</div>
+    <h2 class="section-title">Political Timeline</h2>
+    <div class="timeline">
+      <div class="tl-item left">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">1950</span>
+          <h4>Born in Vadnagar, Gujarat</h4>
+          <p>Born into a humble family, helped father sell tea at railway station.</p>
+        </div>
+      </div>
+      <div class="tl-item right">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">1971</span>
+          <h4>Joined RSS Full-Time</h4>
+          <p>Dedicated life to national service through the Rashtriya Swayamsevak Sangh.</p>
+        </div>
+      </div>
+      <div class="tl-item left">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">1987</span>
+          <h4>Joined BJP</h4>
+          <p>Became an active member of the Bharatiya Janata Party, rising through the ranks.</p>
+        </div>
+      </div>
+      <div class="tl-item right">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">2001</span>
+          <h4>Chief Minister of Gujarat</h4>
+          <p>Became CM of Gujarat, transforming it into India's most developed state.</p>
+        </div>
+      </div>
+      <div class="tl-item left">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">2014</span>
+          <h4>Prime Minister – 1st Term</h4>
+          <p>Led BJP to historic majority, became 14th PM of India with 282 seats.</p>
+        </div>
+      </div>
+      <div class="tl-item right">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">2019</span>
+          <h4>Prime Minister – 2nd Term</h4>
+          <p>Re-elected with even larger mandate of 303 seats. Article 370 abrogated.</p>
+        </div>
+      </div>
+      <div class="tl-item left">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <span class="tl-year">2024</span>
+          <h4>Prime Minister – 3rd Term</h4>
+          <p>Sworn in for historic 3rd consecutive term, continuing Viksit Bharat mission.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="section-tag">Reach Out</div>
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <p>Reach out for collaborations, queries, or to share your vision for India's future.</p>
+        <div class="contact-links">
+          <a href="https://www.narendramodi.in" target="_blank" class="contact-link">
+            <span class="cl-icon">🌐</span>
+            <div><strong>Official Website</strong><span>narendramodi.in</span></div>
+          </a>
+          <a href="https://twitter.com/narendramodi" target="_blank" class="contact-link">
+            <span class="cl-icon">🐦</span>
+            <div><strong>Twitter / X</strong><span>@narendramodi</span></div>
+          </a>
+          <a href="https://www.instagram.com/narendramodi" target="_blank" class="contact-link">
+            <span class="cl-icon">📸</span>
+            <div><strong>Instagram</strong><span>@narendramodi</span></div>
+          </a>
+          <a href="https://www.linkedin.com/in/debangshu-pandey-b06a9a28b" target="_blank" class="contact-link">
+            <span class="cl-icon">💼</span>
+            <div><strong>LinkedIn</strong><span>Connect on LinkedIn</span></div>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+          <span class="form-error" id="nameErr"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          <span class="form-error" id="emailErr"></span>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What is this about?" required />
+          <span class="form-error" id="subjectErr"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          <span class="form-error" id="messageErr"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+          <span id="btnText">Send Message</span>
+          <span id="btnLoader" style="display:none">Sending...</span>
+        </button>
+        <div class="form-success" id="formSuccess">✅ Message sent successfully! Thank you for reaching out.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-flag">🇮🇳</span> NaMo
+        <p>Serving India with dedication, vision, and unwavering commitment.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#initiatives">Initiatives</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Narendra Modi Portfolio. Built with ❤️ for India.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== MODAL ===== -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModal(null)" aria-label="Close modal">✕</button>
+    <img id="modalImg" src="" alt="" />
+    <div class="modal-body">
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CHAT ===== -->
+<button class="chat-fab" id="chatFab" onclick="toggleChat()" aria-label="Open chat">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
+  <span>Ask Modi</span>
+</button>
+
+<div class="chat-box" id="chatBox">
+  <div class="chat-head">
+    <img src="181218164622-modi-0418-01.jpg" alt="Modi" />
+    <div>
+      <strong>Narendra Modi</strong>
+      <span class="online-dot"></span> Online
+    </div>
+    <button onclick="toggleChat()" class="chat-close-btn" aria-label="Close chat">✕</button>
+  </div>
+  <div class="chat-messages" id="chatMessages">
+    <div class="msg bot">
+      <div class="msg-text">Namaste! I am Narendra Modi. What would you like to know about me or my work for India?</div>
+      <div class="msg-time">Just now</div>
+    </div>
+  </div>
+  <div class="chat-footer">
+    <input type="text" id="chatInput" placeholder="Ask me anything..." aria-label="Chat message" />
+    <button onclick="sendChat()" aria-label="Send">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
